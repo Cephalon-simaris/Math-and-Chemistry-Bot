@@ -302,7 +302,7 @@ async def element(ctx,element : str):
         embed21 = discord.Embed(title = "`CALCIUM`", color = discord.Colour.blue())
         embed21.add_field(name = "❯ **Name**", value = "Calcium")
         embed21.add_field(name = "❯ **Atomic Symbol**", value = "Ca",inline = True)
-        embed21.add_field(name = "❯ **Atomic Number**", value = "10")
+        embed21.add_field(name = "❯ **Atomic Number**", value = "20")
         embed21.add_field(name = "❯ **Atomic Mass**", value = "40.078u",inline = True)
         embed21.add_field(name = "❯ **Phase at STP**", value = "Solid")
         embed21.add_field(name = "❯ **Colour**", value = "White",inline = True)
