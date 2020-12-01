@@ -20,7 +20,7 @@ async def on_ready():
 async def help(ctx):
     embed = discord.Embed(title = ":white_check_mark: calc help" , description = "calc commands (use prefix -> m! )" , color = discord.Colour.blue())
     embed.add_field(name = "/calc <equation>", value = "enter equation here", inline = False)
-    embed.add_field(name = "/log <base> <number>", value = "Use to find logarithm of a number with base and the number as input", inline = False)
+    embed.add_field(name = "/log <number> <base>", value = "Use to find logarithm of a number with base and the number as input", inline = False)
     embed.add_field(name = "/ln <number>", value = "Use to find logarithm of a number with base e", inline = False)
     embed.add_field(name = "/<sin/cos/tan/cosec/sec/cot> <number in degrees>", value = "Use to find the value of the trigonometric functions at the input number in degrees", inline = False)
     embed.set_thumbnail(url = client.user.avatar_url)
